@@ -1,7 +1,8 @@
 {
     "@context": [
         {
-            "floorplan": "https://secorolab.github.io/metamodels/floorplan#"
+            "floorplan": "https://secorolab.github.io/metamodels/floorplan#",
+            "polytope": "https://secorolab.github.io/metamodels/polytope#"
         },
         "https://secorolab.github.io/metamodels/floor-plan/floor-plan.json"
     ],
@@ -148,16 +149,6 @@
             "shape": "polytope:polygon-left_short_connector-wall-3"
         },
         {
-            "@id": "floorplan:feature-left_short_connector-column_1",
-            "@type": "Feature",
-            "shape": "polytope:polygon-left_short_connector-feature-column_1"
-        },
-        {
-            "@id": "floorplan:feature-left_short_connector-column_2",
-            "@type": "Feature",
-            "shape": "polytope:polygon-left_short_connector-feature-column_2"
-        },
-        {
             "@id": "floorplan:space-left_short_connector",
             "@type": "Space",
             "walls": [
@@ -166,10 +157,7 @@
                 "floorplan:space-left_short_connector-wall-2",
                 "floorplan:space-left_short_connector-wall-3"
             ],
-            "feature": [
-                "floorplan:feature-left_short_connector-column_1",
-                "floorplan:feature-left_short_connector-column_2"
-            ],
+            "feature": [],
             "shape": "polytope:polygon-left_short_connector"
         },
         {
@@ -325,14 +313,59 @@
             "shape": "polytope:polygon-left_long_corridor-feature-column_20"
         },
         {
-            "@id": "floorplan:feature-left_long_corridor-trashcan_1",
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_01",
             "@type": "Feature",
-            "shape": "polytope:polygon-left_long_corridor-feature-trashcan_1"
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_01"
         },
         {
-            "@id": "floorplan:feature-left_long_corridor-trashcan_2",
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_02",
             "@type": "Feature",
-            "shape": "polytope:polygon-left_long_corridor-feature-trashcan_2"
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_02"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_03",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_03"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_04",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_04"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_05",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_05"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_11",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_11"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_12",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_12"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_14",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_14"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_15",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_15"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_16",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_16"
+        },
+        {
+            "@id": "floorplan:feature-left_long_corridor-door_doorway_17",
+            "@type": "Feature",
+            "shape": "polytope:polygon-left_long_corridor-feature-door_doorway_17"
         },
         {
             "@id": "floorplan:space-left_long_corridor",
@@ -364,8 +397,17 @@
                 "floorplan:feature-left_long_corridor-column_18",
                 "floorplan:feature-left_long_corridor-column_19",
                 "floorplan:feature-left_long_corridor-column_20",
-                "floorplan:feature-left_long_corridor-trashcan_1",
-                "floorplan:feature-left_long_corridor-trashcan_2"
+                "floorplan:feature-left_long_corridor-door_doorway_01",
+                "floorplan:feature-left_long_corridor-door_doorway_02",
+                "floorplan:feature-left_long_corridor-door_doorway_03",
+                "floorplan:feature-left_long_corridor-door_doorway_04",
+                "floorplan:feature-left_long_corridor-door_doorway_05",
+                "floorplan:feature-left_long_corridor-door_doorway_11",
+                "floorplan:feature-left_long_corridor-door_doorway_12",
+                "floorplan:feature-left_long_corridor-door_doorway_14",
+                "floorplan:feature-left_long_corridor-door_doorway_15",
+                "floorplan:feature-left_long_corridor-door_doorway_16",
+                "floorplan:feature-left_long_corridor-door_doorway_17"
             ],
             "shape": "polytope:polygon-left_long_corridor"
         },
@@ -390,16 +432,6 @@
             "shape": "polytope:polygon-right_short_connector-wall-3"
         },
         {
-            "@id": "floorplan:feature-right_short_connector-column_01",
-            "@type": "Feature",
-            "shape": "polytope:polygon-right_short_connector-feature-column_01"
-        },
-        {
-            "@id": "floorplan:feature-right_short_connector-column_02",
-            "@type": "Feature",
-            "shape": "polytope:polygon-right_short_connector-feature-column_02"
-        },
-        {
             "@id": "floorplan:space-right_short_connector",
             "@type": "Space",
             "walls": [
@@ -408,10 +440,7 @@
                 "floorplan:space-right_short_connector-wall-2",
                 "floorplan:space-right_short_connector-wall-3"
             ],
-            "feature": [
-                "floorplan:feature-right_short_connector-column_01",
-                "floorplan:feature-right_short_connector-column_02"
-            ],
+            "feature": [],
             "shape": "polytope:polygon-right_short_connector"
         },
         {
@@ -525,16 +554,6 @@
             "shape": "polytope:polygon-right_long_corridor-feature-column_20"
         },
         {
-            "@id": "floorplan:feature-right_long_corridor-trashcan_1",
-            "@type": "Feature",
-            "shape": "polytope:polygon-right_long_corridor-feature-trashcan_1"
-        },
-        {
-            "@id": "floorplan:feature-right_long_corridor-trashcan_2",
-            "@type": "Feature",
-            "shape": "polytope:polygon-right_long_corridor-feature-trashcan_2"
-        },
-        {
             "@id": "floorplan:space-right_long_corridor",
             "@type": "Space",
             "walls": [
@@ -561,9 +580,7 @@
                 "floorplan:feature-right_long_corridor-column_17",
                 "floorplan:feature-right_long_corridor-column_18",
                 "floorplan:feature-right_long_corridor-column_19",
-                "floorplan:feature-right_long_corridor-column_20",
-                "floorplan:feature-right_long_corridor-trashcan_1",
-                "floorplan:feature-right_long_corridor-trashcan_2"
+                "floorplan:feature-right_long_corridor-column_20"
             ],
             "shape": "polytope:polygon-right_long_corridor"
         },
@@ -780,11 +797,6 @@
             "shape": "polytope:polygon-left_corridor_extra_end-wall-3"
         },
         {
-            "@id": "floorplan:feature-left_corridor_extra_end-trashcan_2",
-            "@type": "Feature",
-            "shape": "polytope:polygon-left_corridor_extra_end-feature-trashcan_2"
-        },
-        {
             "@id": "floorplan:space-left_corridor_extra_end",
             "@type": "Space",
             "walls": [
@@ -793,9 +805,7 @@
                 "floorplan:space-left_corridor_extra_end-wall-2",
                 "floorplan:space-left_corridor_extra_end-wall-3"
             ],
-            "feature": [
-                "floorplan:feature-left_corridor_extra_end-trashcan_2"
-            ],
+            "feature": [],
             "shape": "polytope:polygon-left_corridor_extra_end"
         },
         {
@@ -959,7 +969,7 @@
             "shape": "polytope:polygon-classroom_c018"
         },
         {
-            "@id": "floorplan:brsu_building_c_with_doorways",
+            "@id": "floorplan:icra_brsu_building_c_level_3b",
             "@type": "FloorPlan",
             "spaces": [
                 "floorplan:space-stairway_room_center",

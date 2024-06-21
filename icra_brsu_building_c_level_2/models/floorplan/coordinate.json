@@ -2945,7 +2945,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": 8.6,
+            "x": 9.0,
             "y": 0.4
         },
         {
@@ -2974,7 +2974,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_left",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-2-to-diagonal_corridor_left-frame",
@@ -2988,7 +2988,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_left",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-3-to-diagonal_corridor_left-frame",
@@ -3019,7 +3019,7 @@
             ],
             "theta": 90.0,
             "x": 0.0,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_left-wall-0-frame",
@@ -3032,8 +3032,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-0",
             "unit": "M",
-            "x": -0.20000000000000007,
-            "y": -0.19999999999999954
+            "x": -0.20000000000000012,
+            "y": -0.19999999999999957
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_left-wall-0-frame",
@@ -3047,7 +3047,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-0",
             "unit": "M",
             "x": -0.19999999999999993,
-            "y": 2.4500000000000006
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_left-wall-0-frame",
@@ -3061,7 +3061,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-0",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_left-wall-0-frame",
@@ -3092,7 +3092,7 @@
             ],
             "theta": 0.0,
             "x": 4.2,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_left-wall-1-frame",
@@ -3106,7 +3106,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-1",
             "unit": "M",
             "x": -0.19999999999999993,
-            "y": 2.4500000000000006
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_left-wall-1-frame",
@@ -3119,8 +3119,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-1",
             "unit": "M",
-            "x": 8.660322329283469,
-            "y": 2.4500000000000006
+            "x": 8.651410216371174,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_left-wall-1-frame",
@@ -3134,7 +3134,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-1",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_left-wall-1-frame",
@@ -3148,7 +3148,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-1",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-2-frame-to-diagonal_corridor_left-frame",
@@ -3163,9 +3163,9 @@
                 "M",
                 "degrees"
             ],
-            "theta": -104.93141717813756,
+            "theta": -102.99461679191653,
             "x": 8.1,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_left-wall-2-frame",
@@ -3178,8 +3178,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-2",
             "unit": "M",
-            "x": 8.660322329283469,
-            "y": 2.4500000000000006
+            "x": 8.651410216371174,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_left-wall-2-frame",
@@ -3192,7 +3192,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-2",
             "unit": "M",
-            "x": 7.9536556626168,
+            "x": 7.959102524063483,
             "y": -0.20000000000000046
         },
         {
@@ -3221,7 +3221,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-2",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-diagonal_corridor_left-frame",
@@ -3251,7 +3251,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-3",
             "unit": "M",
-            "x": 7.9536556626168,
+            "x": 7.959102524063483,
             "y": -0.20000000000000046
         },
         {
@@ -3265,8 +3265,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_left-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_left-wall-3",
             "unit": "M",
-            "x": -0.20000000000000007,
-            "y": -0.19999999999999954
+            "x": -0.20000000000000012,
+            "y": -0.19999999999999957
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_left-wall-3-frame",
@@ -3310,7 +3310,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": -9.5,
+            "x": -9.8,
             "y": 0.4
         },
         {
@@ -3339,7 +3339,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center_right",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-2-to-diagonal_corridor_center_right-frame",
@@ -3353,7 +3353,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center_right",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-3-to-diagonal_corridor_center_right-frame",
@@ -3382,9 +3382,9 @@
                 "M",
                 "degrees"
             ],
-            "theta": 75.06858282186246,
+            "theta": 77.0053832080835,
             "x": 0.3,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_right-wall-0-frame",
@@ -3397,7 +3397,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-0",
             "unit": "M",
-            "x": -0.26032232928346705,
+            "x": -0.25141021637117433,
             "y": -0.1999999999999996
         },
         {
@@ -3411,8 +3411,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-0",
             "unit": "M",
-            "x": 0.4463443373831997,
-            "y": 2.4499999999999997
+            "x": 0.440897475936518,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center_right-wall-0-frame",
@@ -3426,7 +3426,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-0",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center_right-wall-0-frame",
@@ -3457,7 +3457,7 @@
             ],
             "theta": 0.0,
             "x": 4.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_right-wall-1-frame",
@@ -3470,8 +3470,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-1",
             "unit": "M",
-            "x": 0.4463443373831997,
-            "y": 2.4499999999999997
+            "x": 0.440897475936518,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center_right-wall-1-frame",
@@ -3484,8 +3484,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-1",
             "unit": "M",
-            "x": 7.600000000000001,
-            "y": 2.4499999999999997
+            "x": 7.6000000000000005,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center_right-wall-1-frame",
@@ -3499,7 +3499,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-1",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center_right-wall-1-frame",
@@ -3513,7 +3513,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-1",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-2-frame-to-diagonal_corridor_center_right-frame",
@@ -3530,7 +3530,7 @@
             ],
             "theta": -90.0,
             "x": 7.4,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_right-wall-2-frame",
@@ -3543,8 +3543,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-2",
             "unit": "M",
-            "x": 7.600000000000001,
-            "y": 2.4499999999999997
+            "x": 7.6000000000000005,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center_right-wall-2-frame",
@@ -3557,7 +3557,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-2",
             "unit": "M",
-            "x": 7.600000000000001,
+            "x": 7.6000000000000005,
             "y": -0.20000000000000046
         },
         {
@@ -3586,7 +3586,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-2",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-diagonal_corridor_center_right-frame",
@@ -3616,7 +3616,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-3",
             "unit": "M",
-            "x": 7.600000000000001,
+            "x": 7.6000000000000005,
             "y": -0.20000000000000046
         },
         {
@@ -3630,7 +3630,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_right-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_center_right-wall-3",
             "unit": "M",
-            "x": -0.26032232928346705,
+            "x": -0.25141021637117433,
             "y": -0.1999999999999996
         },
         {
@@ -3690,7 +3690,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center",
             "unit": "M",
             "x": -1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-position-point-1-to-diagonal_corridor_center-frame",
@@ -3704,7 +3704,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center",
             "unit": "M",
             "x": 1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-position-point-2-to-diagonal_corridor_center-frame",
@@ -3718,7 +3718,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center",
             "unit": "M",
             "x": 1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-position-point-3-to-diagonal_corridor_center-frame",
@@ -3732,7 +3732,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center",
             "unit": "M",
             "x": -1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-pose-of-wall-0-frame-to-diagonal_corridor_center-frame",
@@ -3749,7 +3749,7 @@
             ],
             "theta": 0.0,
             "x": 0.0,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center-wall-0-frame",
@@ -3763,7 +3763,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-0",
             "unit": "M",
             "x": -1.4,
-            "y": 9.2
+            "y": 9.1
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center-wall-0-frame",
@@ -3777,7 +3777,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-0",
             "unit": "M",
             "x": 1.4,
-            "y": 9.2
+            "y": 9.1
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center-wall-0-frame",
@@ -3791,7 +3791,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-0",
             "unit": "M",
             "x": 1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center-wall-0-frame",
@@ -3805,7 +3805,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-0",
             "unit": "M",
             "x": -1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-pose-of-wall-1-frame-to-diagonal_corridor_center-frame",
@@ -3836,7 +3836,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-1",
             "unit": "M",
             "x": 1.4,
-            "y": 9.2
+            "y": 9.1
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center-wall-1-frame",
@@ -3850,7 +3850,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-1",
             "unit": "M",
             "x": 1.4,
-            "y": -9.2
+            "y": -9.1
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center-wall-1-frame",
@@ -3864,7 +3864,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-1",
             "unit": "M",
             "x": 1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center-wall-1-frame",
@@ -3878,7 +3878,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-1",
             "unit": "M",
             "x": 1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-pose-of-wall-2-frame-to-diagonal_corridor_center-frame",
@@ -3895,7 +3895,7 @@
             ],
             "theta": 180.0,
             "x": 0.0,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center-wall-2-frame",
@@ -3909,7 +3909,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-2",
             "unit": "M",
             "x": 1.4,
-            "y": -9.2
+            "y": -9.1
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center-wall-2-frame",
@@ -3923,7 +3923,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-2",
             "unit": "M",
             "x": -1.4,
-            "y": -9.2
+            "y": -9.1
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center-wall-2-frame",
@@ -3937,7 +3937,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-2",
             "unit": "M",
             "x": -1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center-wall-2-frame",
@@ -3951,7 +3951,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-2",
             "unit": "M",
             "x": 1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-diagonal_corridor_center-frame",
@@ -3982,7 +3982,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-3",
             "unit": "M",
             "x": -1.4,
-            "y": -9.2
+            "y": -9.1
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center-wall-3-frame",
@@ -3996,7 +3996,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-3",
             "unit": "M",
             "x": -1.4,
-            "y": 9.2
+            "y": 9.1
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center-wall-3-frame",
@@ -4010,7 +4010,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-3",
             "unit": "M",
             "x": -1.2,
-            "y": 9.0
+            "y": 8.9
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center-wall-3-frame",
@@ -4024,7 +4024,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center-wall-3",
             "unit": "M",
             "x": -1.2,
-            "y": -9.0
+            "y": -8.9
         },
         {
             "@id": "coord:coord-pose-frame-diagonal_corridor_center_left-wall-2-to-frame-right_long_corridor-wall-3",
@@ -4040,7 +4040,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": 18.3,
+            "x": 17.4,
             "y": 0.4
         },
         {
@@ -4069,7 +4069,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center_left",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-2-to-diagonal_corridor_center_left-frame",
@@ -4083,7 +4083,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_center_left",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-3-to-diagonal_corridor_center_left-frame",
@@ -4114,7 +4114,7 @@
             ],
             "theta": 90.0,
             "x": 0.0,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_left-wall-0-frame",
@@ -4127,8 +4127,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-0",
             "unit": "M",
-            "x": -0.20000000000000007,
-            "y": -0.19999999999999954
+            "x": -0.20000000000000012,
+            "y": -0.19999999999999957
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center_left-wall-0-frame",
@@ -4142,7 +4142,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-0",
             "unit": "M",
             "x": -0.19999999999999993,
-            "y": 2.4500000000000006
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center_left-wall-0-frame",
@@ -4156,7 +4156,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-0",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center_left-wall-0-frame",
@@ -4187,7 +4187,7 @@
             ],
             "theta": 0.0,
             "x": 4.2,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_left-wall-1-frame",
@@ -4201,7 +4201,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-1",
             "unit": "M",
             "x": -0.19999999999999993,
-            "y": 2.4500000000000006
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center_left-wall-1-frame",
@@ -4214,8 +4214,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-1",
             "unit": "M",
-            "x": 8.660322329283469,
-            "y": 2.4500000000000006
+            "x": 8.651410216371174,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center_left-wall-1-frame",
@@ -4229,7 +4229,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-1",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_center_left-wall-1-frame",
@@ -4243,7 +4243,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-1",
             "unit": "M",
             "x": 0.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-2-frame-to-diagonal_corridor_center_left-frame",
@@ -4258,9 +4258,9 @@
                 "M",
                 "degrees"
             ],
-            "theta": -104.93141717813756,
+            "theta": -102.99461679191653,
             "x": 8.1,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_center_left-wall-2-frame",
@@ -4273,8 +4273,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-2",
             "unit": "M",
-            "x": 8.660322329283469,
-            "y": 2.4500000000000006
+            "x": 8.651410216371174,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_center_left-wall-2-frame",
@@ -4287,7 +4287,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-2",
             "unit": "M",
-            "x": 7.9536556626168,
+            "x": 7.959102524063483,
             "y": -0.20000000000000046
         },
         {
@@ -4316,7 +4316,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-2",
             "unit": "M",
             "x": 8.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-diagonal_corridor_center_left-frame",
@@ -4346,7 +4346,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-3",
             "unit": "M",
-            "x": 7.9536556626168,
+            "x": 7.959102524063483,
             "y": -0.20000000000000046
         },
         {
@@ -4360,8 +4360,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_center_left-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_center_left-wall-3",
             "unit": "M",
-            "x": -0.20000000000000007,
-            "y": -0.19999999999999954
+            "x": -0.20000000000000012,
+            "y": -0.19999999999999957
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_center_left-wall-3-frame",
@@ -4405,7 +4405,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": -19.1,
+            "x": -18.1,
             "y": 0.4
         },
         {
@@ -4434,7 +4434,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_right",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-2-to-diagonal_corridor_right-frame",
@@ -4448,7 +4448,7 @@
             "as-seen-by": "geom:frame-center-diagonal_corridor_right",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-point-3-to-diagonal_corridor_right-frame",
@@ -4477,9 +4477,9 @@
                 "M",
                 "degrees"
             ],
-            "theta": 75.06858282186246,
+            "theta": 77.0053832080835,
             "x": 0.3,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_right-wall-0-frame",
@@ -4492,7 +4492,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-0",
             "unit": "M",
-            "x": -0.26032232928346705,
+            "x": -0.25141021637117433,
             "y": -0.1999999999999996
         },
         {
@@ -4506,8 +4506,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-0",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-0",
             "unit": "M",
-            "x": 0.4463443373831997,
-            "y": 2.4499999999999997
+            "x": 0.440897475936518,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_right-wall-0-frame",
@@ -4521,7 +4521,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-0",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_right-wall-0-frame",
@@ -4552,7 +4552,7 @@
             ],
             "theta": 0.0,
             "x": 4.0,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_right-wall-1-frame",
@@ -4565,8 +4565,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-1",
             "unit": "M",
-            "x": 0.4463443373831997,
-            "y": 2.4499999999999997
+            "x": 0.440897475936518,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_right-wall-1-frame",
@@ -4579,8 +4579,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-1",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-1",
             "unit": "M",
-            "x": 7.600000000000001,
-            "y": 2.4499999999999997
+            "x": 7.6000000000000005,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-2-to-diagonal_corridor_right-wall-1-frame",
@@ -4594,7 +4594,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-1",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-position-corner-3-to-diagonal_corridor_right-wall-1-frame",
@@ -4608,7 +4608,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-1",
             "unit": "M",
             "x": 0.6,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-2-frame-to-diagonal_corridor_right-frame",
@@ -4625,7 +4625,7 @@
             ],
             "theta": -90.0,
             "x": 7.4,
-            "y": 1.125
+            "y": 1.3
         },
         {
             "@id": "coord:coord-position-corner-0-to-diagonal_corridor_right-wall-2-frame",
@@ -4638,8 +4638,8 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-2",
             "unit": "M",
-            "x": 7.600000000000001,
-            "y": 2.4499999999999997
+            "x": 7.6000000000000005,
+            "y": 2.8000000000000007
         },
         {
             "@id": "coord:coord-position-corner-1-to-diagonal_corridor_right-wall-2-frame",
@@ -4652,7 +4652,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-2",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-2",
             "unit": "M",
-            "x": 7.600000000000001,
+            "x": 7.6000000000000005,
             "y": -0.20000000000000046
         },
         {
@@ -4681,7 +4681,7 @@
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-2",
             "unit": "M",
             "x": 7.4,
-            "y": 2.25
+            "y": 2.6
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-diagonal_corridor_right-frame",
@@ -4711,7 +4711,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-3",
             "unit": "M",
-            "x": 7.600000000000001,
+            "x": 7.6000000000000005,
             "y": -0.20000000000000046
         },
         {
@@ -4725,7 +4725,7 @@
             "with-respect-to": "geom:point-frame-diagonal_corridor_right-wall-3",
             "as-seen-by": "geom:frame-diagonal_corridor_right-wall-3",
             "unit": "M",
-            "x": -0.26032232928346705,
+            "x": -0.25141021637117433,
             "y": -0.1999999999999996
         },
         {
@@ -5500,7 +5500,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": -25.4,
+            "x": -24.8,
             "y": 0.35
         },
         {
@@ -5543,7 +5543,7 @@
             "as-seen-by": "geom:frame-center-right_corridor_extra_space",
             "unit": "M",
             "x": 1.15,
-            "y": -9.3
+            "y": -10.0
         },
         {
             "@id": "coord:coord-position-point-3-to-right_corridor_extra_space-frame",
@@ -5557,7 +5557,7 @@
             "as-seen-by": "geom:frame-center-right_corridor_extra_space",
             "unit": "M",
             "x": 0.0,
-            "y": -9.6
+            "y": -10.3
         },
         {
             "@id": "coord:coord-pose-of-wall-0-frame-to-right_corridor_extra_space-frame",
@@ -5587,7 +5587,7 @@
             "with-respect-to": "geom:point-frame-right_corridor_extra_space-wall-0",
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-0",
             "unit": "M",
-            "x": -0.14999999999999974,
+            "x": -0.1499999999999997,
             "y": 0.15
         },
         {
@@ -5647,7 +5647,7 @@
             ],
             "theta": -90.0,
             "x": 1.15,
-            "y": -4.65
+            "y": -5.0
         },
         {
             "@id": "coord:coord-position-corner-0-to-right_corridor_extra_space-wall-1-frame",
@@ -5675,7 +5675,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-1",
             "unit": "M",
             "x": 1.2999999999999998,
-            "y": -9.415889534660929
+            "y": -10.115889534660932
         },
         {
             "@id": "coord:coord-position-corner-2-to-right_corridor_extra_space-wall-1-frame",
@@ -5689,7 +5689,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-1",
             "unit": "M",
             "x": 1.15,
-            "y": -9.3
+            "y": -10.0
         },
         {
             "@id": "coord:coord-position-corner-3-to-right_corridor_extra_space-wall-1-frame",
@@ -5718,9 +5718,9 @@
                 "M",
                 "degrees"
             ],
-            "theta": -165.37912601136838,
+            "theta": -165.3791260113683,
             "x": 0.575,
-            "y": -9.45
+            "y": -10.15
         },
         {
             "@id": "coord:coord-position-corner-0-to-right_corridor_extra_space-wall-2-frame",
@@ -5734,7 +5734,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-2",
             "unit": "M",
             "x": 1.2999999999999998,
-            "y": -9.415889534660929
+            "y": -10.115889534660932
         },
         {
             "@id": "coord:coord-position-corner-1-to-right_corridor_extra_space-wall-2-frame",
@@ -5747,8 +5747,8 @@
             "with-respect-to": "geom:point-frame-right_corridor_extra_space-wall-2",
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-2",
             "unit": "M",
-            "x": -0.1500000000000003,
-            "y": -9.794150404226146
+            "x": -0.15000000000000024,
+            "y": -10.49415040422615
         },
         {
             "@id": "coord:coord-position-corner-2-to-right_corridor_extra_space-wall-2-frame",
@@ -5762,7 +5762,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-2",
             "unit": "M",
             "x": 0.0,
-            "y": -9.6
+            "y": -10.3
         },
         {
             "@id": "coord:coord-position-corner-3-to-right_corridor_extra_space-wall-2-frame",
@@ -5776,7 +5776,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-2",
             "unit": "M",
             "x": 1.15,
-            "y": -9.3
+            "y": -10.0
         },
         {
             "@id": "coord:coord-pose-of-wall-3-frame-to-right_corridor_extra_space-frame",
@@ -5793,7 +5793,7 @@
             ],
             "theta": 90.0,
             "x": 0.0,
-            "y": -4.8
+            "y": -5.15
         },
         {
             "@id": "coord:coord-position-corner-0-to-right_corridor_extra_space-wall-3-frame",
@@ -5806,8 +5806,8 @@
             "with-respect-to": "geom:point-frame-right_corridor_extra_space-wall-3",
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-3",
             "unit": "M",
-            "x": -0.1500000000000003,
-            "y": -9.794150404226146
+            "x": -0.15000000000000024,
+            "y": -10.49415040422615
         },
         {
             "@id": "coord:coord-position-corner-1-to-right_corridor_extra_space-wall-3-frame",
@@ -5820,7 +5820,7 @@
             "with-respect-to": "geom:point-frame-right_corridor_extra_space-wall-3",
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-3",
             "unit": "M",
-            "x": -0.14999999999999974,
+            "x": -0.1499999999999997,
             "y": 0.15
         },
         {
@@ -5849,7 +5849,7 @@
             "as-seen-by": "geom:frame-right_corridor_extra_space-wall-3",
             "unit": "M",
             "x": 0.0,
-            "y": -9.6
+            "y": -10.3
         },
         {
             "@id": "coord:coord-pose-frame-classroom_c022-wall-0-to-frame-right_long_corridor-wall-3",
@@ -6230,7 +6230,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": -0.7,
+            "x": -1.5,
             "y": 0.35
         },
         {
@@ -6988,7 +6988,7 @@
             "with-respect-to": "geom:point-center-classroom_c018",
             "as-seen-by": "geom:frame-center-classroom_c018",
             "unit": "M",
-            "x": 15.32,
+            "x": 13.0,
             "y": 0.0
         },
         {
@@ -7002,7 +7002,7 @@
             "with-respect-to": "geom:point-center-classroom_c018",
             "as-seen-by": "geom:frame-center-classroom_c018",
             "unit": "M",
-            "x": 17.4,
+            "x": 14.8,
             "y": -7.8
         },
         {
@@ -7033,7 +7033,7 @@
                 "degrees"
             ],
             "theta": 0.0,
-            "x": 7.66,
+            "x": 6.5,
             "y": 0.0
         },
         {
@@ -7048,7 +7048,7 @@
             "as-seen-by": "geom:frame-classroom_c018-wall-0",
             "unit": "M",
             "x": -0.1999999999999998,
-            "y": 0.20000000000000007
+            "y": 0.19999999999999996
         },
         {
             "@id": "coord:coord-position-corner-1-to-classroom_c018-wall-0-frame",
@@ -7061,8 +7061,8 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-0",
             "as-seen-by": "geom:frame-classroom_c018-wall-0",
             "unit": "M",
-            "x": 15.473655662616808,
-            "y": 0.20000000000000007
+            "x": 13.159102524063485,
+            "y": 0.19999999999999996
         },
         {
             "@id": "coord:coord-position-corner-2-to-classroom_c018-wall-0-frame",
@@ -7075,7 +7075,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-0",
             "as-seen-by": "geom:frame-classroom_c018-wall-0",
             "unit": "M",
-            "x": 15.32,
+            "x": 13.0,
             "y": 0.0
         },
         {
@@ -7105,8 +7105,8 @@
                 "M",
                 "degrees"
             ],
-            "theta": -75.06858282186253,
-            "x": 16.36,
+            "theta": -77.00538320808353,
+            "x": 13.9,
             "y": -3.9
         },
         {
@@ -7120,8 +7120,8 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-1",
             "as-seen-by": "geom:frame-classroom_c018-wall-1",
             "unit": "M",
-            "x": 15.473655662616808,
-            "y": 0.20000000000000007
+            "x": 13.159102524063485,
+            "y": 0.19999999999999996
         },
         {
             "@id": "coord:coord-position-corner-1-to-classroom_c018-wall-1-frame",
@@ -7134,7 +7134,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-1",
             "as-seen-by": "geom:frame-classroom_c018-wall-1",
             "unit": "M",
-            "x": 17.66032232928346,
+            "x": 15.051410216371174,
             "y": -8.0
         },
         {
@@ -7148,7 +7148,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-1",
             "as-seen-by": "geom:frame-classroom_c018-wall-1",
             "unit": "M",
-            "x": 17.4,
+            "x": 14.8,
             "y": -7.8
         },
         {
@@ -7162,7 +7162,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-1",
             "as-seen-by": "geom:frame-classroom_c018-wall-1",
             "unit": "M",
-            "x": 15.32,
+            "x": 13.0,
             "y": 0.0
         },
         {
@@ -7179,7 +7179,7 @@
                 "degrees"
             ],
             "theta": 180.0,
-            "x": 8.7,
+            "x": 7.4,
             "y": -7.8
         },
         {
@@ -7193,7 +7193,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-2",
             "as-seen-by": "geom:frame-classroom_c018-wall-2",
             "unit": "M",
-            "x": 17.66032232928346,
+            "x": 15.051410216371174,
             "y": -8.0
         },
         {
@@ -7235,7 +7235,7 @@
             "with-respect-to": "geom:point-frame-classroom_c018-wall-2",
             "as-seen-by": "geom:frame-classroom_c018-wall-2",
             "unit": "M",
-            "x": 17.4,
+            "x": 14.8,
             "y": -7.8
         },
         {
@@ -7281,7 +7281,7 @@
             "as-seen-by": "geom:frame-classroom_c018-wall-3",
             "unit": "M",
             "x": -0.1999999999999998,
-            "y": 0.20000000000000007
+            "y": 0.19999999999999996
         },
         {
             "@id": "coord:coord-position-corner-2-to-classroom_c018-wall-3-frame",

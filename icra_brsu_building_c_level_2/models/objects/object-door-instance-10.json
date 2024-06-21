@@ -1,0 +1,65 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#",
+            "geom": "https://comp-rob2b.github.io/metamodels/geometry/structural-entities#",
+            "floorplan": "https://secorolab.github.io/metamodels/floorplan#"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/floor-plan/state.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://secorolab.github.io/metamodels/geometry/coordinate-extension.json"
+    ],
+    "@graph": [
+        {
+            "@id": "geom:point-location-door-10",
+            "@type": "Point"
+        },
+        {
+            "@id": "geom:frame-location-door-10",
+            "@type": "Frame",
+            "origin": "geom:point-location-door-10"
+        },
+        {
+            "@id": "door:pose-frame-location-door-10",
+            "@type": "Pose",
+            "of": "geom:frame-location-door-10",
+            "with-respect-to": "geom:frame-left_long_corridor-wall-3"
+        },
+        {
+            "@id": "door:coord-pose-frame-location-door-10",
+            "@type": [
+                "PoseReference",
+                "PoseCoordinate",
+                "VectorXYZ"
+            ],
+            "of-pose": "door:pose-frame-location-door-10",
+            "as-seen-by": "geom:frame-left_long_corridor-wall-3",
+            "unit": [
+                "M",
+                "degrees"
+            ],
+            "theta": -90.0,
+            "x": -21.47,
+            "y": 0.1,
+            "z": 0.0
+        },
+        {
+            "@id": "door:door-instance-10",
+            "@type": "ObjectInstance",
+            "frame": "geom:frame-location-door-10",
+            "of-object": "door:door",
+            "world": "floorplan:icra_brsu_building_c_level_2",
+            "start-state": "door:door-partially-opened"
+        },
+        {
+            "@id": "world-frame-tag",
+            "@type": "WorldFrame",
+            "frame": "geom:world-frame"
+        }
+    ]
+}

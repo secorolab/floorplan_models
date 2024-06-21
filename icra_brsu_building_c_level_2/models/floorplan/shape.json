@@ -1,7 +1,8 @@
 {
     "@context": [
         {
-            "polytope": "https://secorolab.github.io/metamodels/polytope#"
+            "polytope": "https://secorolab.github.io/metamodels/polytope#",
+            "geom": "https://comp-rob2b.github.io/metamodels/geometry/structural-entities#"
         },
         "https://secorolab.github.io/metamodels/geometry/polytope.json"
     ],
@@ -244,26 +245,6 @@
                 "geom:point-corner-left_short_connector-wall-3-1",
                 "geom:point-corner-left_short_connector-wall-3-2",
                 "geom:point-corner-left_short_connector-wall-3-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-left_short_connector-feature-column_1",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-column_1-0",
-                "geom:point-feature-shape-column_1-1",
-                "geom:point-feature-shape-column_1-2",
-                "geom:point-feature-shape-column_1-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-left_short_connector-feature-column_2",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-column_2-0",
-                "geom:point-feature-shape-column_2-1",
-                "geom:point-feature-shape-column_2-2",
-                "geom:point-feature-shape-column_2-3"
             ]
         },
         {
@@ -567,23 +548,113 @@
             ]
         },
         {
-            "@id": "polytope:polygon-left_long_corridor-feature-trashcan_1",
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_01",
             "@type": "Polygon",
             "points": [
-                "geom:point-feature-shape-trashcan_1-0",
-                "geom:point-feature-shape-trashcan_1-1",
-                "geom:point-feature-shape-trashcan_1-2",
-                "geom:point-feature-shape-trashcan_1-3"
+                "geom:point-feature-shape-door_doorway_01-0",
+                "geom:point-feature-shape-door_doorway_01-1",
+                "geom:point-feature-shape-door_doorway_01-2",
+                "geom:point-feature-shape-door_doorway_01-3"
             ]
         },
         {
-            "@id": "polytope:polygon-left_long_corridor-feature-trashcan_2",
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_02",
             "@type": "Polygon",
             "points": [
-                "geom:point-feature-shape-trashcan_2-0",
-                "geom:point-feature-shape-trashcan_2-1",
-                "geom:point-feature-shape-trashcan_2-2",
-                "geom:point-feature-shape-trashcan_2-3"
+                "geom:point-feature-shape-door_doorway_02-0",
+                "geom:point-feature-shape-door_doorway_02-1",
+                "geom:point-feature-shape-door_doorway_02-2",
+                "geom:point-feature-shape-door_doorway_02-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_03",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_03-0",
+                "geom:point-feature-shape-door_doorway_03-1",
+                "geom:point-feature-shape-door_doorway_03-2",
+                "geom:point-feature-shape-door_doorway_03-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_04",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_04-0",
+                "geom:point-feature-shape-door_doorway_04-1",
+                "geom:point-feature-shape-door_doorway_04-2",
+                "geom:point-feature-shape-door_doorway_04-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_05",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_05-0",
+                "geom:point-feature-shape-door_doorway_05-1",
+                "geom:point-feature-shape-door_doorway_05-2",
+                "geom:point-feature-shape-door_doorway_05-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_11",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_11-0",
+                "geom:point-feature-shape-door_doorway_11-1",
+                "geom:point-feature-shape-door_doorway_11-2",
+                "geom:point-feature-shape-door_doorway_11-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_12",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_12-0",
+                "geom:point-feature-shape-door_doorway_12-1",
+                "geom:point-feature-shape-door_doorway_12-2",
+                "geom:point-feature-shape-door_doorway_12-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_14",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_14-0",
+                "geom:point-feature-shape-door_doorway_14-1",
+                "geom:point-feature-shape-door_doorway_14-2",
+                "geom:point-feature-shape-door_doorway_14-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_15",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_15-0",
+                "geom:point-feature-shape-door_doorway_15-1",
+                "geom:point-feature-shape-door_doorway_15-2",
+                "geom:point-feature-shape-door_doorway_15-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_16",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_16-0",
+                "geom:point-feature-shape-door_doorway_16-1",
+                "geom:point-feature-shape-door_doorway_16-2",
+                "geom:point-feature-shape-door_doorway_16-3"
+            ]
+        },
+        {
+            "@id": "polytope:polygon-left_long_corridor-feature-door_doorway_17",
+            "@type": "Polygon",
+            "points": [
+                "geom:point-feature-shape-door_doorway_17-0",
+                "geom:point-feature-shape-door_doorway_17-1",
+                "geom:point-feature-shape-door_doorway_17-2",
+                "geom:point-feature-shape-door_doorway_17-3"
             ]
         },
         {
@@ -634,26 +705,6 @@
                 "geom:point-corner-right_short_connector-wall-3-1",
                 "geom:point-corner-right_short_connector-wall-3-2",
                 "geom:point-corner-right_short_connector-wall-3-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-right_short_connector-feature-column_01",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-column_01-0",
-                "geom:point-feature-shape-column_01-1",
-                "geom:point-feature-shape-column_01-2",
-                "geom:point-feature-shape-column_01-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-right_short_connector-feature-column_02",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-column_02-0",
-                "geom:point-feature-shape-column_02-1",
-                "geom:point-feature-shape-column_02-2",
-                "geom:point-feature-shape-column_02-3"
             ]
         },
         {
@@ -884,26 +935,6 @@
                 "geom:point-feature-shape-column_20-1",
                 "geom:point-feature-shape-column_20-2",
                 "geom:point-feature-shape-column_20-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-right_long_corridor-feature-trashcan_1",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-trashcan_1-0",
-                "geom:point-feature-shape-trashcan_1-1",
-                "geom:point-feature-shape-trashcan_1-2",
-                "geom:point-feature-shape-trashcan_1-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-right_long_corridor-feature-trashcan_2",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-trashcan_2-0",
-                "geom:point-feature-shape-trashcan_2-1",
-                "geom:point-feature-shape-trashcan_2-2",
-                "geom:point-feature-shape-trashcan_2-3"
             ]
         },
         {
@@ -1254,16 +1285,6 @@
                 "geom:point-corner-left_corridor_extra_end-wall-3-1",
                 "geom:point-corner-left_corridor_extra_end-wall-3-2",
                 "geom:point-corner-left_corridor_extra_end-wall-3-3"
-            ]
-        },
-        {
-            "@id": "polytope:polygon-left_corridor_extra_end-feature-trashcan_2",
-            "@type": "Polygon",
-            "points": [
-                "geom:point-feature-shape-trashcan_2-0",
-                "geom:point-feature-shape-trashcan_2-1",
-                "geom:point-feature-shape-trashcan_2-2",
-                "geom:point-feature-shape-trashcan_2-3"
             ]
         },
         {
