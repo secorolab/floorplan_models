@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <world name="floorplan:icra_brsu_building_c_level_2_with_objects">
+    <gravity>0 0 -9.8</gravity>
+    <physics default="0" name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.6 0.6 0.6 1</ambient>
+      <background>0.4 0.4 0.4 1</background>
+      <shadows>false</shadows>
+    </scene>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://icra_brsu_building_c_level_2</uri>
+      <static>true</static>
+      <pose>-0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </include>
+    
+    <include>
+      <name>door-instance-2</name>
+      <uri>model://door</uri>
+      <static>false</static>
+      <pose>-3.0147589368621652 23.633212933340452 0.0 0.0 -0.0 2.5307274153917776</pose>
+      
+    </include>
+    
+    <include>
+      <name>door-instance-3</name>
+      <uri>model://door</uri>
+      <static>false</static>
+      <pose>3.2945818629993298 32.64388542051938 0.0 0.0 -0.0 2.5307274153917776</pose>
+      
+    </include>
+    
+    <include>
+      <name>door-instance-4</name>
+      <uri>model://door</uri>
+      <static>false</static>
+      <pose>17.748708059045665 53.28651693660201 0.0 0.0 -0.0 2.5307274153917776</pose>
+      
+    </include>
+    
+    <include>
+      <name>door-instance-5</name>
+      <uri>model://door</uri>
+      <static>false</static>
+      <pose>21.190166677151932 58.201429202335966 0.0 0.0 -0.0 2.5307274153917776</pose>
+      
+    </include>
+    
+    <include>
+      <name>door-instance-1</name>
+      <uri>model://door</uri>
+      <static>false</static>
+      <pose>-6.456217554968435 18.71830066760649 0.0 0.0 -0.0 2.5307274153917776</pose>
+      
+    </include>
+    
+  </world>
+</sdf>

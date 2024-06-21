@@ -1,0 +1,9 @@
+id: diagonal_corridor_right
+task:
+- name: diagonal_corridor_right
+  type: waypoint_following
+  waypoints:
+  - {id: diagonal_corridor_right-point-0, x: -46.39, y: -36.18, yaw: 0, z: 0}
+  - {id: diagonal_corridor_right-point-1, x: -51.94, y: -36.11, yaw: 0, z: 0}
+  - {id: diagonal_corridor_right-point-2, x: -51.9, y: -33.51, yaw: 0, z: 0}
+  - {id: diagonal_corridor_right-point-3, x: -45.76, y: -33.59, yaw: 0, z: 0}

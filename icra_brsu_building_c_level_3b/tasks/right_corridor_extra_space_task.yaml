@@ -1,0 +1,9 @@
+id: right_corridor_extra_space
+task:
+- name: right_corridor_extra_space
+  type: waypoint_following
+  waypoints:
+  - {id: right_corridor_extra_space-point-0, x: -53.09, y: -43.59, yaw: 0, z: 0}
+  - {id: right_corridor_extra_space-point-1, x: -49.34, y: -35.68, yaw: 0, z: 0}
+  - {id: right_corridor_extra_space-point-2, x: -49.59, y: -35.63, yaw: 0, z: 0}
+  - {id: right_corridor_extra_space-point-3, x: -53.31, y: -43.49, yaw: 0, z: 0}

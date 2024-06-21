@@ -1,0 +1,9 @@
+id: classroom_c018
+task:
+- name: classroom_c018
+  type: waypoint_following
+  waypoints:
+  - {id: classroom_c018-point-0, x: -39.6, y: -36.47, yaw: 0, z: 0}
+  - {id: classroom_c018-point-1, x: -45.96, y: -38.09, yaw: 0, z: 0}
+  - {id: classroom_c018-point-2, x: -46.26, y: -24.87, yaw: 0, z: 0}
+  - {id: classroom_c018-point-3, x: -39.86, y: -24.73, yaw: 0, z: 0}

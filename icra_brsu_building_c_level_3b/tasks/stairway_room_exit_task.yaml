@@ -1,0 +1,9 @@
+id: stairway_room_exit
+task:
+- name: stairway_room_exit
+  type: waypoint_following
+  waypoints:
+  - {id: stairway_room_exit-point-0, x: -4.92, y: 1.08, yaw: 0, z: 0}
+  - {id: stairway_room_exit-point-1, x: -7.79, y: 1.53, yaw: 0, z: 0}
+  - {id: stairway_room_exit-point-2, x: -7.49, y: 3.41, yaw: 0, z: 0}
+  - {id: stairway_room_exit-point-3, x: -4.63, y: 2.96, yaw: 0, z: 0}

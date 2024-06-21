@@ -1,0 +1,9 @@
+id: right_long_corridor
+task:
+- name: right_long_corridor
+  type: waypoint_following
+  waypoints:
+  - {id: right_long_corridor-point-0, x: -42.13, y: -51.92, yaw: 0, z: 0}
+  - {id: right_long_corridor-point-1, x: -17.04, y: 1.04, yaw: 0, z: 0}
+  - {id: right_long_corridor-point-2, x: -16.27, y: 0.67, yaw: 0, z: 0}
+  - {id: right_long_corridor-point-3, x: -41.36, y: -52.28, yaw: 0, z: 0}

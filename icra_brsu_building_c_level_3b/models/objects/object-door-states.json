@@ -1,0 +1,123 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+        "https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json",
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/floor-plan/state.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://secorolab.github.io/metamodels/geometry/coordinate-extension.json"
+    ],
+    "@graph": [
+        {
+            "@id": "door:door-fully-opened",
+            "@type": "State"
+        },
+        {
+            "@id": "door:joint-pose-door-fully-opened",
+            "@type": [ "JointReference", "JointPosition", "RevoluteJointPosition", "RevoluteJointPositionCoordinate", "JointLowerLimit" ],
+            "of-joint": "door:joint-door-hinge",
+            "quantity-kind": "Angle",
+            "unit": "RAD",
+            "value": 1.6
+        },
+        {
+            "@id": "door:joint-state-door-fully-opened",
+            "@type": "JointState",
+            "joint": "door:joint-door-hinge",
+            "pose": "door:joint-pose-door-fully-opened",
+            "state": "door:door-fully-opened"
+        },
+        {
+            "@id": "door:door-partially-opened",
+            "@type": "State"
+        },
+        {
+            "@id": "door:joint-pose-door-patially-opened",
+            "@type": [ "JointReference", "JointPosition", "RevoluteJointPosition", "RevoluteJointPositionCoordinate", "JointLowerLimit" ],
+            "of-joint": "door:joint-door-hinge",
+            "quantity-kind": "Angle",
+            "unit": "RAD",
+            "value": 0.7
+        },
+        {
+            "@id": "door:joint-state-door-patially-opened",
+            "@type": "JointState",
+            "joint": "door:joint-door-hinge",
+            "pose": "door:joint-pose-door-patially-opened",
+            "state": "door:door-partially-opened"
+        },
+        {
+            "@id": "door:door-fully-closed",
+            "@type": "State"
+        },
+        {
+            "@id": "door:joint-pose-door-fully-closed",
+            "@type": [ "JointReference", "JointPosition", "RevoluteJointPosition", "RevoluteJointPositionCoordinate", "JointLowerLimit" ],
+            "of-joint": "door:joint-door-hinge",
+            "quantity-kind": "Angle",
+            "unit": "RAD",
+            "value": 0.0
+        },
+        {
+            "@id": "door:joint-state-door-fully-closed",
+            "@type": "JointState",
+            "joint": "door:joint-door-hinge",
+            "pose": "door:joint-pose-door-fully-closed",
+            "state": "door:door-fully-closed"
+        },
+        {
+            "@id": "door:transition-from-door-fully-closed-to-door-fully-opened",
+            "@type": "Transition",
+            "start-state": "door:door-fully-closed",
+            "end-state": "door:door-fully-opened"
+        },
+        {
+            "@id": "door:transition-from-door-fully-opened-to-door-fully-closed",
+            "@type": "Transition",
+            "start-state": "door:door-fully-opened",
+            "end-state": "door:door-fully-closed"
+        },
+        {
+            "@id": "door:transition-from-door-fully-closed-to-door-partially-opened",
+            "@type": "Transition",
+            "start-state": "door:door-fully-closed",
+            "end-state": "door:door-partially-opened"
+        },
+        {
+            "@id": "door:transition-from-door-partially-opened-to-door-fully-closed",
+            "@type": "Transition",
+            "start-state": "door:door-partially-opened",
+            "end-state": "door:door-fully-closed"
+        },
+        {
+            "@id": "door:transition-from-door-partially-opened-to-door-fully-opened",
+            "@type": "Transition",
+            "start-state": "door:door-partially-opened",
+            "end-state": "door:door-fully-opened"
+        },
+        {
+            "@id": "door:transition-from-door-fully-opened-to-door-partially-opened",
+            "@type": "Transition",
+            "start-state": "door:door-fully-opened",
+            "end-state": "door:door-partially-opened"
+        },
+        {
+            "@id": "door:transition-table-door-object",
+            "@type": "TransitionTable",
+            "transitions": [
+                "door:transition-from-door-fully-closed-to-door-fully-opened",
+                "door:transition-from-door-fully-opened-to-door-fully-closed",
+                "door:transition-from-door-fully-closed-to-door-partially-opened",
+                "door:transition-from-door-partially-opened-to-door-fully-closed",
+                "door:transition-from-door-partially-opened-to-door-fully-opened",
+                "door:transition-from-door-fully-opened-to-door-partially-opened"
+            ]
+        }
+    ]
+}   

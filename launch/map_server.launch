@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <arg name="map_name" default="brsu_building_c_static"/>
+  <arg name="map_file" default="$(find floorplan_models)/maps/$(arg map_name)/$(arg map_name).yaml"/>
+
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+
+</launch>

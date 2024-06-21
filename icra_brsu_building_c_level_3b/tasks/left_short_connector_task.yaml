@@ -1,0 +1,9 @@
+id: left_short_connector
+task:
+- name: left_short_connector
+  type: waypoint_following
+  waypoints:
+  - {id: left_short_connector-point-0, x: 25.1, y: -4.44, yaw: 0, z: 0}
+  - {id: left_short_connector-point-1, x: 9.12, y: -4.79, yaw: 0, z: 0}
+  - {id: left_short_connector-point-2, x: 9.05, y: -1.44, yaw: 0, z: 0}
+  - {id: left_short_connector-point-3, x: 25.02, y: -1.08, yaw: 0, z: 0}
