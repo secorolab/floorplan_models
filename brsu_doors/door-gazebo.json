@@ -9,20 +9,20 @@
         {
             "@id": "door:gazebo-link-door-body-representation",
             "@type": "GazeboLinkRepresentation",
-            "visual": "door:link-visual-door-body",
-            "collision": "door:link-physics-door-body",
+            "visual": "door:door-panel-visual-link",
+            "collision": "door:door-panel-physics-link",
             "inertia": "door:door-body-inertia",
             "material": "DarkYellow",
-            "gz-link": "door:object-link-door-body"
+            "gz-link": "door:door-panel-object-link"
         },
         {
             "@id": "door:gazebo-link-door-hinge-representation",
             "@type": "GazeboLinkRepresentation",
-            "visual": "door:link-visual-door-hinge",
-            "collision": "door:link-physics-door-hinge",
+            "visual": "door:hinge-jamb-visual-link",
+            "collision": "door:hinge-jamb-physics-link",
             "inertia": "door:door-hinge-inertia",
             "material": "Yellow",
-            "gz-link": "door:object-link-door-hinge"
+            "gz-link": "door:hinge-jamb-object-link"
         }
     ]
 }

@@ -18,37 +18,37 @@
     "@graph": [ 
 
         {
-            "@id": "door:link-visual-door-body",
+            "@id": "door:door-panel-visual-link",
             "link": "door:door-panel",
             "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
             "polytope": "door:door-panel-polytope"
         },
         {
-            "@id": "door:link-physics-door-body",
+            "@id": "door:door-panel-physics-link",
             "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
             "link": "door:door-panel",
             "polytope": "door:door-panel-polytope"
         },
         {
-            "@id": "door:link-visual-door-hinge",
+            "@id": "door:hinge-jamb-visual-link",
             "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
             "link": "door:hinge-jamb",
             "polytope": "door:hinge-jamb-polytope"
         },
         {
-            "@id": "door:link-physics-door-hinge",
+            "@id": "door:hinge-jamb-physics-link",
             "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
             "link": "door:hinge-jamb",
             "polytope": "door:hinge-jamb-polytope"
         },
         {
-            "@id": "door:object-link-door-body",
+            "@id": "door:door-panel-object-link",
             "@type": "ObjectLink",
             "link": "door:door-panel",
             "link-frame": "door:door-panel-center-frame"
         },
         {
-            "@id": "door:object-link-door-hinge",
+            "@id": "door:hinge-jamb-object-link",
             "@type": "ObjectLink",
             "link": "door:hinge-jamb",
             "link-frame": "door:hinge-jamb-frame"
@@ -58,7 +58,7 @@
             "@type": ["Object", "ObjectWithKinematicChain"],
             "kinematic-chain": "door:kinematic-chain-door",
             "object-frame": "door:door-object-frame",
-            "object-links": ["door:object-link-door-body", "door:object-link-door-hinge"]
+            "object-links": ["door:door-panel-object-link", "door:hinge-jamb-object-link"]
         },
 
         {
