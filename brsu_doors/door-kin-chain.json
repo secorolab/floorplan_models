@@ -21,7 +21,7 @@
         {
             "@id": "door:offset-frame-joint-door-hinge",
             "@type": "Position",
-            "of": "door:door-body-origin",
+            "of": "door:door-hinge-stile-origin",
             "with-respect-to": "door:joint-door-hinge-origin",
             "quantity-kind": "Length"
         },

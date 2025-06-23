@@ -13,7 +13,7 @@
             "@id": "door:door-body-inertia",
             "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
             "of-body": "door:door-panel",
-            "reference-point": "door:door-body-origin",
+            "reference-point": "door:door-hinge-stile-origin",
             "as-seen-by": "door:door-hinge-stile-frame",
             "quantity-kind": [ "MomentOfInertia", "Mass" ],
             "unit": [ "KiloGM-M2", "KiloGM" ],

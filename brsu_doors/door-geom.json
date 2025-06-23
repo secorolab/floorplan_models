@@ -48,28 +48,28 @@
             "vector-z": "door:joint-door-hinge-joint-vector-z"
         },
         {
-            "@id": "door:door-body-origin",
+            "@id": "door:door-hinge-stile-origin",
             "@type": [ "3D", "Euclidean", "Point" ]
         },
         {
             "@id": "door:door-body-origin-vector-x",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:door-body-origin"
+            "start": "door:door-hinge-stile-origin"
         },
         {
             "@id": "door:door-body-origin-vector-y",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:door-body-origin"
+            "start": "door:door-hinge-stile-origin"
         },
         {
             "@id": "door:door-body-origin-vector-z",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:door-body-origin"
+            "start": "door:door-hinge-stile-origin"
         },
         {
             "@id": "door:door-hinge-stile-frame",
             "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
-            "origin": "door:door-body-origin",
+            "origin": "door:door-hinge-stile-origin",
             "vector-x": "door:door-body-origin-vector-x",
             "vector-y": "door:door-body-origin-vector-y",
             "vector-z": "door:door-body-origin-vector-z"
@@ -109,7 +109,7 @@
             "@type": [ "SimplicialComplex", "RigidBody" ],
             "simplices": [
                 "door:door-hinge-stile-frame",
-                "door:door-body-origin",
+                "door:door-hinge-stile-origin",
                 "door:door-body-origin-vector-x",
                 "door:door-body-origin-vector-y",
                 "door:door-body-origin-vector-z"
