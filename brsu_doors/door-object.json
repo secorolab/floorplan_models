@@ -21,13 +21,13 @@
             "@id": "door:link-visual-door-body",
             "link": "door:door-panel",
             "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
-            "polytope": "door:door-body-polytope"
+            "polytope": "door:door-panel-polytope"
         },
         {
             "@id": "door:link-physics-door-body",
             "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
             "link": "door:door-panel",
-            "polytope": "door:door-body-polytope"
+            "polytope": "door:door-panel-polytope"
         },
         {
             "@id": "door:link-visual-door-hinge",

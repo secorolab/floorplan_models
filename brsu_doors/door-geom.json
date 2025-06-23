@@ -209,7 +209,7 @@
 
 
         {
-            "@id": "door:door-body-polytope",
+            "@id": "door:door-panel-polytope",
             "@type": ["Polytope", "3DPolytope", "CuboidWithSize"],
             "unit": "M",
             "x-size": 0.05,
