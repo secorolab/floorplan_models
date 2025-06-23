@@ -45,7 +45,7 @@
             "@id": "door:object-link-door-body",
             "@type": "ObjectLink",
             "link": "door:door-body",
-            "link-frame": "door:door-body-center-frame"
+            "link-frame": "door:door-panel-center-frame"
         },
         {
             "@id": "door:object-link-door-hinge",

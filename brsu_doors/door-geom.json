@@ -84,13 +84,13 @@
             "origin": "door:door-object-origin"
         },
         {
-            "@id": "door:door-body-center-origin",
+            "@id": "door:door-panel-center-origin",
             "@type": [ "3D", "Euclidean", "Point" ]
         },
         {
-            "@id": "door:door-body-center-frame",
+            "@id": "door:door-panel-center-frame",
             "@type": "Frame",
-            "origin": "door:door-body-center-origin"
+            "origin": "door:door-panel-center-origin"
         },
         {
             "@id": "door:hinge-jamb",
@@ -136,9 +136,9 @@
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:pose-door-body-center-frame-wrt-door-body-origin-frame",
+            "@id": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
             "@type": "Pose",
-            "of": "door:door-body-center-frame",
+            "of": "door:door-panel-center-frame",
             "with-respect-to": "door:door-body-hinge-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
@@ -191,7 +191,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-door-body-center-frame-wrt-door-body-origin-frame",
+            "@id": "door:coord-pose-door-panel-center-frame-wrt-door-body-origin-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -199,7 +199,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-door-body-center-frame-wrt-door-body-origin-frame",
+            "of-pose": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
             "as-seen-by": "door:door-body-hinge-frame",
             "x": 0.025,
             "y": 0.465,
