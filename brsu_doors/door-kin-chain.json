@@ -28,7 +28,7 @@
         {
             "@id": "door:common-axis-door-hinge",
             "@type": "LineCollinearity",
-            "lines": ["door:joint-door-hinge-joint-vector-z", "door:door-hinge-stile-vector-z"]
+            "lines": ["door:door-hinge-vector-z", "door:door-hinge-stile-vector-z"]
         },
         {
             "@id": "door:kinematic-chain-door",

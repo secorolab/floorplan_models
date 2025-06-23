@@ -25,17 +25,17 @@
             "@type": [ "3D", "Euclidean", "Point" ]
         },
         {
-            "@id": "door:joint-door-hinge-joint-vector-x",
+            "@id": "door:door-hinge-vector-x",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
             "start": "door:joint-door-hinge-origin"
         },
         {
-            "@id": "door:joint-door-hinge-joint-vector-y",
+            "@id": "door:door-hinge-vector-y",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
             "start": "door:joint-door-hinge-origin"
         },
         {
-            "@id": "door:joint-door-hinge-joint-vector-z",
+            "@id": "door:door-hinge-vector-z",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
             "start": "door:joint-door-hinge-origin"
         },
@@ -43,9 +43,9 @@
             "@id": "door:joint-door-hinge-frame",
             "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
             "origin": "door:joint-door-hinge-origin",
-            "vector-x": "door:joint-door-hinge-joint-vector-x",
-            "vector-y": "door:joint-door-hinge-joint-vector-y",
-            "vector-z": "door:joint-door-hinge-joint-vector-z"
+            "vector-x": "door:door-hinge-vector-x",
+            "vector-y": "door:door-hinge-vector-y",
+            "vector-z": "door:door-hinge-vector-z"
         },
         {
             "@id": "door:door-hinge-stile-origin",
@@ -99,9 +99,9 @@
                 "door:hinge-jamb-frame",
                 "door:joint-door-hinge-frame",
                 "door:joint-door-hinge-origin",
-                "door:joint-door-hinge-joint-vector-x",
-                "door:joint-door-hinge-joint-vector-y",
-                "door:joint-door-hinge-joint-vector-z"
+                "door:door-hinge-vector-x",
+                "door:door-hinge-vector-y",
+                "door:door-hinge-vector-z"
             ]
         },
         {
