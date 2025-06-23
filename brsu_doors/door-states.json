@@ -21,7 +21,7 @@
         {
             "@id": "door:joint-pose-door-fully-opened",
             "@type": [ "JointReference", "JointPosition", "JointPositionCoordinate", "Quantity"],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
             "unit": "RAD",
             "value": 1.6
@@ -29,7 +29,7 @@
         {
             "@id": "door:joint-state-door-fully-opened",
             "@type": "JointState",
-            "joint": "door:joint-door-hinge",
+            "joint": "door:door-hinge",
             "pose": "door:joint-pose-door-fully-opened",
             "state": "door:door-fully-opened"
         },
@@ -40,7 +40,7 @@
         {
             "@id": "door:joint-pose-door-patially-opened",
             "@type": [ "JointReference", "JointPosition", "JointPositionCoordinate", "Quantity"],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
             "unit": "RAD",
             "value": 0.7
@@ -48,7 +48,7 @@
         {
             "@id": "door:joint-state-door-patially-opened",
             "@type": "JointState",
-            "joint": "door:joint-door-hinge",
+            "joint": "door:door-hinge",
             "pose": "door:joint-pose-door-patially-opened",
             "state": "door:door-partially-opened"
         },
@@ -59,7 +59,7 @@
         {
             "@id": "door:joint-pose-door-fully-closed",
             "@type": [ "JointReference", "JointPosition", "JointPositionCoordinate", "Quantity"],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
             "unit": "RAD",
             "value": 0.0
@@ -67,7 +67,7 @@
         {
             "@id": "door:joint-state-door-fully-closed",
             "@type": "JointState",
-            "joint": "door:joint-door-hinge",
+            "joint": "door:door-hinge",
             "pose": "door:joint-pose-door-fully-closed",
             "state": "door:door-fully-closed"
         },

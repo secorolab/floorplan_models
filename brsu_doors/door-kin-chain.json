@@ -11,18 +11,18 @@
     ],
     "@graph": [ 
         {
-            "@id": "door:joint-door-hinge",
+            "@id": "door:door-hinge",
             "@type": [ "Joint", "RevoluteJoint", "RevoluteJointWithOrientedAxisOfRotation"],
             "between-attachments": ["door:hinge-jamb", "door:door-panel"],
             "common-axis": "door:common-axis-door-hinge",
-            "origin-offset": "door:offset-frame-joint-door-hinge",
+            "origin-offset": "door:offset-frame-door-hinge",
             "polarity": "PositivePolarity"
         },
         {
-            "@id": "door:offset-frame-joint-door-hinge",
+            "@id": "door:offset-frame-door-hinge",
             "@type": "Position",
             "of": "door:door-hinge-stile-origin",
-            "with-respect-to": "door:joint-door-hinge-origin",
+            "with-respect-to": "door:door-hinge-origin",
             "quantity-kind": "Length"
         },
         {
@@ -33,14 +33,14 @@
         {
             "@id": "door:kinematic-chain-door",
             "@type": "KinematicChain",
-            "joints": ["door:joint-door-hinge"]
+            "joints": ["door:door-hinge"]
         },
 
 
         {
             "@id": "door:joint-lower-limit-door-hinge",
             "@type": [ "JointReference", "JointLowerLimit", "Quantity"],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
             "unit": "RAD",
             "value": 0.0
@@ -48,7 +48,7 @@
         {
             "@id": "door:joint-upper-limit-door-hinge",
             "@type": [ "JointReference", "JointUpperLimit", "Quantity"],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
             "unit": "RAD",
             "value": 2.0

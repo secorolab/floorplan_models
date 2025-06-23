@@ -62,16 +62,16 @@
         },
 
         {
-            "@id": "door:joint-door-hinge-tree",
+            "@id": "door:door-hinge-tree",
             "@type": "JointWithTree",
-            "joint-without-tree": "door:joint-door-hinge",
+            "joint-without-tree": "door:door-hinge",
             "parent": "door:hinge-jamb",
             "children": ["door:door-panel"]
         },
         {
-            "@id": "door:zero-configuration-joint-door-hinge",
+            "@id": "door:zero-configuration-door-hinge",
             "@type": [ "JointZeroConfiguration", "JointZeroConfigurationWithCoincidence" ],
-            "of-joint": "door:joint-door-hinge",
+            "of-joint": "door:door-hinge",
             "coincidence-of": [ "door:door-hinge-vector-x", "door:door-hinge-stile-vector-x"]
         }
     ]

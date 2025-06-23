@@ -21,28 +21,28 @@
             "origin": "door:hinge-jamb-origin"
         },
         {
-            "@id": "door:joint-door-hinge-origin",
+            "@id": "door:door-hinge-origin",
             "@type": [ "3D", "Euclidean", "Point" ]
         },
         {
             "@id": "door:door-hinge-vector-x",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:joint-door-hinge-origin"
+            "start": "door:door-hinge-origin"
         },
         {
             "@id": "door:door-hinge-vector-y",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:joint-door-hinge-origin"
+            "start": "door:door-hinge-origin"
         },
         {
             "@id": "door:door-hinge-vector-z",
             "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
-            "start": "door:joint-door-hinge-origin"
+            "start": "door:door-hinge-origin"
         },
         {
-            "@id": "door:joint-door-hinge-frame",
+            "@id": "door:door-hinge-frame",
             "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
-            "origin": "door:joint-door-hinge-origin",
+            "origin": "door:door-hinge-origin",
             "vector-x": "door:door-hinge-vector-x",
             "vector-y": "door:door-hinge-vector-y",
             "vector-z": "door:door-hinge-vector-z"
@@ -97,8 +97,8 @@
             "@type": [ "SimplicialComplex", "RigidBody" ],
             "simplices": [
                 "door:hinge-jamb-frame",
-                "door:joint-door-hinge-frame",
-                "door:joint-door-hinge-origin",
+                "door:door-hinge-frame",
+                "door:door-hinge-origin",
                 "door:door-hinge-vector-x",
                 "door:door-hinge-vector-y",
                 "door:door-hinge-vector-z"
@@ -122,17 +122,17 @@
             "with-respect-to": "door:door-object-frame"
         },
         {
-            "@id": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
+            "@id": "door:pose-door-hinge-frame-wrt-hinge-jamb-frame",
             "@type": "Pose",
-            "of": "door:joint-door-hinge-frame",
+            "of": "door:door-hinge-frame",
             "with-respect-to": "door:hinge-jamb-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
+            "@id": "door:pose-door-hinge-stile-frame-wrt-door-hinge-frame",
             "@type": "Pose",
             "of": "door:door-hinge-stile-frame",
-            "with-respect-to": "door:joint-door-hinge-frame",
+            "with-respect-to": "door:door-hinge-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
@@ -159,7 +159,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
+            "@id": "door:coord-pose-door-hinge-frame-wrt-hinge-jamb-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -167,7 +167,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
+            "of-pose": "door:pose-door-hinge-frame-wrt-hinge-jamb-frame",
             "as-seen-by": "door:hinge-jamb-frame",
             "x": -0.025,
             "y": 0.025,
@@ -175,7 +175,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
+            "@id": "door:coord-pose-door-hinge-stile-frame-wrt-door-hinge-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -183,8 +183,8 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
-            "as-seen-by": "door:joint-door-hinge-frame",
+            "of-pose": "door:pose-door-hinge-stile-frame-wrt-door-hinge-frame",
+            "as-seen-by": "door:door-hinge-frame",
             "x": 0,
             "y": 0,
             "z": 0,
