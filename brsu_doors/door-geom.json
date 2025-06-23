@@ -129,14 +129,14 @@
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:pose-door-body-origin-frame-wrt-joint-door-hinge-frame",
+            "@id": "door:pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
             "@type": "Pose",
             "of": "door:door-hinge-stile-frame",
             "with-respect-to": "door:joint-door-hinge-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
+            "@id": "door:pose-door-panel-center-frame-wrt-door-hinge-stile-frame",
             "@type": "Pose",
             "of": "door:door-panel-center-frame",
             "with-respect-to": "door:door-hinge-stile-frame",
@@ -175,7 +175,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-door-body-origin-frame-wrt-joint-door-hinge-frame",
+            "@id": "door:coord-pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -183,7 +183,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-door-body-origin-frame-wrt-joint-door-hinge-frame",
+            "of-pose": "door:pose-door-hinge-stile-frame-wrt-joint-door-hinge-frame",
             "as-seen-by": "door:joint-door-hinge-frame",
             "x": 0,
             "y": 0,
@@ -191,7 +191,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-door-panel-center-frame-wrt-door-body-origin-frame",
+            "@id": "door:coord-pose-door-panel-center-frame-wrt-door-hinge-stile-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -199,7 +199,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
+            "of-pose": "door:pose-door-panel-center-frame-wrt-door-hinge-stile-frame",
             "as-seen-by": "door:door-hinge-stile-frame",
             "x": 0.025,
             "y": 0.465,
