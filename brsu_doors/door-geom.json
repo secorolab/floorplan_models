@@ -122,7 +122,7 @@
             "with-respect-to": "door:door-object-frame"
         },
         {
-            "@id": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-origin-frame",
+            "@id": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
             "@type": "Pose",
             "of": "door:joint-door-hinge-frame",
             "with-respect-to": "door:hinge-jamb-frame",
@@ -159,7 +159,7 @@
             "alpha": 0
         },
         {
-            "@id": "door:coord-pose-joint-door-hinge-frame-wrt-hinge-jamb-origin-frame",
+            "@id": "door:coord-pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
@@ -167,7 +167,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-origin-frame",
+            "of-pose": "door:pose-joint-door-hinge-frame-wrt-hinge-jamb-frame",
             "as-seen-by": "door:hinge-jamb-frame",
             "x": -0.025,
             "y": 0.025,
