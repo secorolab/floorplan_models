@@ -1,0 +1,28 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://secorolab.github.io/metamodels/simulation/gazebo.json"
+    ],
+    "@graph": [
+        {
+            "@id": "door:gazebo-link-door-body-representation",
+            "@type": "GazeboLinkRepresentation",
+            "visual": "door:link-visual-door-body",
+            "collision": "door:link-physics-door-body",
+            "inertia": "door:door-body-inertia",
+            "material": "DarkYellow",
+            "gz-link": "door:object-link-door-body"
+        },
+        {
+            "@id": "door:gazebo-link-door-hinge-representation",
+            "@type": "GazeboLinkRepresentation",
+            "visual": "door:link-visual-door-hinge",
+            "collision": "door:link-physics-door-hinge",
+            "inertia": "door:door-hinge-inertia",
+            "material": "Yellow",
+            "gz-link": "door:object-link-door-hinge"
+        }
+    ]
+}

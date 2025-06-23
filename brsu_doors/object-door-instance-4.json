@@ -1,0 +1,61 @@
+{
+    "@context": [
+        {
+          "door": "https://secorolab.github.io/models/door#",
+          "@base": "https://secorolab.github.io/models/floorplan/brsu_building_c_with_doorways/",
+          "fpm": "https://secorolab.github.io/models/floorplan/brsu_building_c_with_doorways/"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+        "https://secorolab.github.io/metamodels/floorplan/object.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/floorplan/state.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://secorolab.github.io/metamodels/geometry/coordinates.json"
+    ],
+    "@graph": [
+        {
+            "@id": "location-door-4",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "location-door-4-frame",
+            "@type": "Frame",
+            "origin": "location-door-4"
+        },
+        {
+            "@id": "door:pose-location-door-4-frame",
+            "@type": "Pose",
+            "of": "location-door-4-frame",
+            "with-respect-to": "left_long_corridor-wall-1-frame"
+        },
+        {
+            "@id": "door:coord-pose-location-door-4-frame",
+            "@type": [
+                "PoseReference",
+                "PoseCoordinate",
+                "VectorXYZ",
+                "EulerAngles"
+            ],
+            "of-pose": "door:pose-location-door-4-frame",
+            "as-seen-by": "left_long_corridor-wall-1-frame",
+            "unit": [
+                "M",
+                "DEG"
+            ],
+            "alpha": 90.0,
+            "x": -20.72,
+            "y": 0.1,
+            "z": 0.0
+        },
+        {
+            "@id": "door:door-instance-4",
+            "@type": "ObjectInstance",
+            "frame": "location-door-4-frame",
+            "of-object": "door:door",
+            "world": "fpm:brsu_building_c_with_doorways",
+            "start-state": "door:door-partially-opened"
+        }
+    ]
+}

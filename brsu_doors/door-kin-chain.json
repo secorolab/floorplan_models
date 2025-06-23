@@ -1,0 +1,58 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json"
+    ],
+    "@graph": [ 
+        {
+            "@id": "door:joint-door-hinge",
+            "@type": [ "Joint", "RevoluteJoint", "RevoluteJointWithOrientedAxisOfRotation"],
+            "between-attachments": ["door:door-hinge", "door:door-body"],
+            "common-axis": "door:common-axis-door-hinge",
+            "origin-offset": "door:offset-frame-joint-door-hinge",
+            "polarity": "PositivePolarity"
+        },
+        {
+            "@id": "door:offset-frame-joint-door-hinge",
+            "@type": "Position",
+            "of": "door:door-body-origin",
+            "with-respect-to": "door:joint-door-hinge-origin",
+            "quantity-kind": "Length"
+        },
+        {
+            "@id": "door:common-axis-door-hinge",
+            "@type": "LineCollinearity",
+            "lines": ["door:joint-door-hinge-joint-vector-z", "door:door-body-origin-vector-z"]
+        },
+        {
+            "@id": "door:kinematic-chain-door",
+            "@type": "KinematicChain",
+            "joints": ["door:joint-door-hinge"]
+        },
+
+
+        {
+            "@id": "door:joint-lower-limit-door-hinge",
+            "@type": [ "JointReference", "JointLowerLimit", "Quantity"],
+            "of-joint": "door:joint-door-hinge",
+            "quantity-kind": "Angle",
+            "unit": "RAD",
+            "value": 0.0
+        },
+        {
+            "@id": "door:joint-upper-limit-door-hinge",
+            "@type": [ "JointReference", "JointUpperLimit", "Quantity"],
+            "of-joint": "door:joint-door-hinge",
+            "quantity-kind": "Angle",
+            "unit": "RAD",
+            "value": 2.0
+        }
+
+    ]
+}
