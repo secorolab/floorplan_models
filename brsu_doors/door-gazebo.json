@@ -7,20 +7,20 @@
     ],
     "@graph": [
         {
-            "@id": "door:gazebo-link-door-body-representation",
+            "@id": "door:gazebo-link-door-panel-representation",
             "@type": "GazeboLinkRepresentation",
             "visual": "door:door-panel-visual-link",
             "collision": "door:door-panel-physics-link",
-            "inertia": "door:door-body-inertia",
+            "inertia": "door:door-panel-inertia",
             "material": "DarkYellow",
             "gz-link": "door:door-panel-object-link"
         },
         {
-            "@id": "door:gazebo-link-door-hinge-representation",
+            "@id": "door:gazebo-link-hinge-jamb-representation",
             "@type": "GazeboLinkRepresentation",
             "visual": "door:hinge-jamb-visual-link",
             "collision": "door:hinge-jamb-physics-link",
-            "inertia": "door:door-hinge-inertia",
+            "inertia": "door:hinge-jamb-inertia",
             "material": "Yellow",
             "gz-link": "door:hinge-jamb-object-link"
         }

@@ -10,7 +10,7 @@
     ],
     "@graph": [
         {
-            "@id": "door:door-body-inertia",
+            "@id": "door:door-panel-inertia",
             "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
             "of-body": "door:door-panel",
             "reference-point": "door:door-hinge-stile-origin",
@@ -23,7 +23,7 @@
             "mass": 1.0
         },
         {
-            "@id": "door:door-hinge-inertia",
+            "@id": "door:hinge-jamb-inertia",
             "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
             "of-body": "door:hinge-jamb",
             "reference-point": "door:hinge-jamb-origin",
