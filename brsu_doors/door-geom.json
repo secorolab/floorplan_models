@@ -67,7 +67,7 @@
             "start": "door:door-body-origin"
         },
         {
-            "@id": "door:door-body-hinge-frame",
+            "@id": "door:door-hinge-stile-frame",
             "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
             "origin": "door:door-body-origin",
             "vector-x": "door:door-body-origin-vector-x",
@@ -108,7 +108,7 @@
             "@id": "door-body",
             "@type": [ "SimplicialComplex", "RigidBody" ],
             "simplices": [
-                "door:door-body-hinge-frame",
+                "door:door-hinge-stile-frame",
                 "door:door-body-origin",
                 "door:door-body-origin-vector-x",
                 "door:door-body-origin-vector-y",
@@ -131,7 +131,7 @@
         {
             "@id": "door:pose-door-body-origin-frame-wrt-joint-hinge-jamb-frame",
             "@type": "Pose",
-            "of": "door:door-body-hinge-frame",
+            "of": "door:door-hinge-stile-frame",
             "with-respect-to": "door:joint-door-hinge-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
@@ -139,7 +139,7 @@
             "@id": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
             "@type": "Pose",
             "of": "door:door-panel-center-frame",
-            "with-respect-to": "door:door-body-hinge-frame",
+            "with-respect-to": "door:door-hinge-stile-frame",
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
@@ -200,7 +200,7 @@
             ],
             "unit": ["M", "RAD"],
             "of-pose": "door:pose-door-panel-center-frame-wrt-door-body-origin-frame",
-            "as-seen-by": "door:door-body-hinge-frame",
+            "as-seen-by": "door:door-hinge-stile-frame",
             "x": 0.025,
             "y": 0.465,
             "z": 0.005,
