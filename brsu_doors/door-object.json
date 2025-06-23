@@ -33,13 +33,13 @@
             "@id": "door:link-visual-door-hinge",
             "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
             "link": "door:hinge-jamb",
-            "polytope": "door:door-hinge-polytope"
+            "polytope": "door:hinge-jamb-polytope"
         },
         {
             "@id": "door:link-physics-door-hinge",
             "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
             "link": "door:hinge-jamb",
-            "polytope": "door:door-hinge-polytope"
+            "polytope": "door:hinge-jamb-polytope"
         },
         {
             "@id": "door:object-link-door-body",

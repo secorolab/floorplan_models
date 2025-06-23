@@ -217,7 +217,7 @@
             "z-size": 1.98
         },
         {
-            "@id": "door:door-hinge-polytope",
+            "@id": "door:hinge-jamb-polytope",
             "@type": ["Polytope", "3DPolytope", "CuboidWithSize"],
             "unit": "M",
             "x-size": 0.05,
