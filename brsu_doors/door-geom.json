@@ -129,7 +129,7 @@
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:pose-door-body-origin-frame-wrt-joint-hinge-jamb-frame",
+            "@id": "door:pose-door-body-origin-frame-wrt-joint-door-hinge-frame",
             "@type": "Pose",
             "of": "door:door-hinge-stile-frame",
             "with-respect-to": "door:joint-door-hinge-frame",
@@ -183,7 +183,7 @@
                 "EulerAngles"
             ],
             "unit": ["M", "RAD"],
-            "of-pose": "door:pose-door-body-origin-frame-wrt-joint-hinge-jamb-frame",
+            "of-pose": "door:pose-door-body-origin-frame-wrt-joint-door-hinge-frame",
             "as-seen-by": "door:joint-door-hinge-frame",
             "x": 0,
             "y": 0,
