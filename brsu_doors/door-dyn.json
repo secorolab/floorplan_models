@@ -25,9 +25,9 @@
         {
             "@id": "door:door-hinge-inertia",
             "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
-            "of-body": "door:door-hinge",
-            "reference-point": "door:door-holder-origin",
-            "as-seen-by": "door:door-holder-frame",
+            "of-body": "door:hinge-jamb",
+            "reference-point": "door:hinge-jamb-origin",
+            "as-seen-by": "door:hinge-jamb-frame",
             "quantity-kind": [ "MomentOfInertia", "Mass" ],
             "unit": [ "KiloGM-M2", "KiloGM" ],
             "xx": 33.220,

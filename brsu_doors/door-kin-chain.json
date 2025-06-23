@@ -13,7 +13,7 @@
         {
             "@id": "door:joint-door-hinge",
             "@type": [ "Joint", "RevoluteJoint", "RevoluteJointWithOrientedAxisOfRotation"],
-            "between-attachments": ["door:door-hinge", "door:door-body"],
+            "between-attachments": ["door:hinge-jamb", "door:door-body"],
             "common-axis": "door:common-axis-door-hinge",
             "origin-offset": "door:offset-frame-joint-door-hinge",
             "polarity": "PositivePolarity"
