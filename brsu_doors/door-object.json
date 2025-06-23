@@ -19,14 +19,14 @@
 
         {
             "@id": "door:link-visual-door-body",
-            "link": "door:door-body",
+            "link": "door:door-panel",
             "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
             "polytope": "door:door-body-polytope"
         },
         {
             "@id": "door:link-physics-door-body",
             "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
-            "link": "door:door-body",
+            "link": "door:door-panel",
             "polytope": "door:door-body-polytope"
         },
         {
@@ -44,7 +44,7 @@
         {
             "@id": "door:object-link-door-body",
             "@type": "ObjectLink",
-            "link": "door:door-body",
+            "link": "door:door-panel",
             "link-frame": "door:door-panel-center-frame"
         },
         {
@@ -66,7 +66,7 @@
             "@type": "JointWithTree",
             "joint-without-tree": "door:joint-door-hinge",
             "parent": "door:hinge-jamb",
-            "children": ["door:door-body"]
+            "children": ["door:door-panel"]
         },
         {
             "@id": "door:zero-configuration-joint-door-hinge",
