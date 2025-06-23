@@ -143,7 +143,7 @@
             "quantity-kind": [ "Angle", "Length" ]
         },
         {
-            "@id": "door:coord-pose-hinge-jamb-frame-wrt-object-door-frame",
+            "@id": "door:coord-pose-hinge-jamb-frame-wrt-door-object-frame",
             "@type": [
                 "PoseReference",
                 "PoseCoordinate",
