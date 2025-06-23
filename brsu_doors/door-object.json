@@ -72,7 +72,7 @@
             "@id": "door:zero-configuration-joint-door-hinge",
             "@type": [ "JointZeroConfiguration", "JointZeroConfigurationWithCoincidence" ],
             "of-joint": "door:joint-door-hinge",
-            "coincidence-of": [ "door:joint-door-hinge-joint-vector-x", "door:door-body-origin-vector-x"]
+            "coincidence-of": [ "door:joint-door-hinge-joint-vector-x", "door:door-hinge-stile-vector-x"]
         }
     ]
 }
