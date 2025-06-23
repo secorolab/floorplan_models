@@ -14,19 +14,19 @@
             "@id": "door:door-hinge",
             "@type": [ "Joint", "RevoluteJoint", "RevoluteJointWithOrientedAxisOfRotation"],
             "between-attachments": ["door:hinge-jamb", "door:door-panel"],
-            "common-axis": "door:common-axis-door-hinge",
-            "origin-offset": "door:offset-frame-door-hinge",
+            "common-axis": "door:door-hinge-common-axis",
+            "origin-offset": "door:door-hinge-offset",
             "polarity": "PositivePolarity"
         },
         {
-            "@id": "door:offset-frame-door-hinge",
+            "@id": "door:door-hinge-offset",
             "@type": "Position",
             "of": "door:door-hinge-stile-origin",
             "with-respect-to": "door:door-hinge-origin",
             "quantity-kind": "Length"
         },
         {
-            "@id": "door:common-axis-door-hinge",
+            "@id": "door:door-hinge-common-axis",
             "@type": "LineCollinearity",
             "lines": ["door:door-hinge-vector-z", "door:door-hinge-stile-vector-z"]
         },
@@ -38,7 +38,7 @@
 
 
         {
-            "@id": "door:joint-lower-limit-door-hinge",
+            "@id": "door:door-hinge-lower-limit",
             "@type": [ "JointReference", "JointLowerLimit", "Quantity"],
             "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
@@ -46,7 +46,7 @@
             "value": 0.0
         },
         {
-            "@id": "door:joint-upper-limit-door-hinge",
+            "@id": "door:door-hinge-upper-limit",
             "@type": [ "JointReference", "JointUpperLimit", "Quantity"],
             "of-joint": "door:door-hinge",
             "quantity-kind": "Angle",
