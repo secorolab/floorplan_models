@@ -7,7 +7,8 @@
         "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
         "https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json",
         "https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json",
-        "https://comp-rob2b.github.io/metamodels/qudt.json"
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://secorolab.github.io/metamodels/floorplan/object.json"
     ],
     "@graph": [ 
         {
