@@ -1,0 +1,146 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/geometry/coordinates.json"
+    ],
+    "@graph": [ 
+        {
+            "@id": "door:hinge-jamb-origin",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "door:hinge-jamb-frame",
+            "@type": [ "3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded" ],
+            "origin": "door:hinge-jamb-origin"
+        },
+        {
+            "@id": "door:door-hinge-origin",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "door:door-hinge-vector-x",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-origin"
+        },
+        {
+            "@id": "door:door-hinge-vector-y",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-origin"
+        },
+        {
+            "@id": "door:door-hinge-vector-z",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-origin"
+        },
+        {
+            "@id": "door:door-hinge-frame",
+            "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
+            "origin": "door:door-hinge-origin",
+            "vector-x": "door:door-hinge-vector-x",
+            "vector-y": "door:door-hinge-vector-y",
+            "vector-z": "door:door-hinge-vector-z"
+        },
+        {
+            "@id": "door:door-hinge-stile-origin",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "door:door-hinge-stile-vector-x",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-stile-origin"
+        },
+        {
+            "@id": "door:door-hinge-stile-vector-y",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-stile-origin"
+        },
+        {
+            "@id": "door:door-hinge-stile-vector-z",
+            "@type": [ "3D", "Euclidean", "Vector", "BoundVector", "UnitLength" ],
+            "start": "door:door-hinge-stile-origin"
+        },
+        {
+            "@id": "door:door-hinge-stile-frame",
+            "@type": ["3D", "Euclidean", "Frame", "Orthonormal", "RigidBody", "RightHanded", "OriginVectorsXYZ"],
+            "origin": "door:door-hinge-stile-origin",
+            "vector-x": "door:door-hinge-stile-vector-x",
+            "vector-y": "door:door-hinge-stile-vector-y",
+            "vector-z": "door:door-hinge-stile-vector-z"
+        },
+        {
+            "@id": "door:door-object-origin",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "door:door-object-frame",
+            "@type": "Frame",
+            "origin": "door:door-object-origin"
+        },
+        {
+            "@id": "door:door-panel-center-origin",
+            "@type": [ "3D", "Euclidean", "Point" ]
+        },
+        {
+            "@id": "door:door-panel-center-frame",
+            "@type": "Frame",
+            "origin": "door:door-panel-center-origin"
+        },
+        {
+            "@id": "door:hinge-jamb",
+            "@type": [ "SimplicialComplex", "RigidBody" ],
+            "simplices": [
+                "door:hinge-jamb-frame",
+                "door:door-hinge-frame",
+                "door:door-hinge-origin",
+                "door:door-hinge-vector-x",
+                "door:door-hinge-vector-y",
+                "door:door-hinge-vector-z"
+            ]
+        },
+        {
+            "@id": "door:door-panel",
+            "@type": [ "SimplicialComplex", "RigidBody" ],
+            "simplices": [
+                "door:door-hinge-stile-frame",
+                "door:door-hinge-stile-origin",
+                "door:door-hinge-stile-vector-x",
+                "door:door-hinge-stile-vector-y",
+                "door:door-hinge-stile-vector-z"
+            ]
+        },
+        {
+            "@id": "door:pose-hinge-jamb-frame-wrt-door-object-frame",
+            "@type": "Pose",
+            "of": "door:hinge-jamb-frame",
+            "with-respect-to": "door:door-object-frame"
+        },
+        {
+            "@id": "door:pose-door-hinge-frame-wrt-hinge-jamb-frame",
+            "@type": "Pose",
+            "of": "door:door-hinge-frame",
+            "with-respect-to": "door:hinge-jamb-frame",
+            "quantity-kind": [ "Angle", "Length" ]
+        },
+        {
+            "@id": "door:pose-door-hinge-stile-frame-wrt-door-hinge-frame",
+            "@type": "Pose",
+            "of": "door:door-hinge-stile-frame",
+            "with-respect-to": "door:door-hinge-frame",
+            "quantity-kind": [ "Angle", "Length" ]
+        },
+        {
+            "@id": "door:pose-door-panel-center-frame-wrt-door-hinge-stile-frame",
+            "@type": "Pose",
+            "of": "door:door-panel-center-frame",
+            "with-respect-to": "door:door-hinge-stile-frame",
+            "quantity-kind": [ "Angle", "Length" ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
+        "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
+        "https://comp-rob2b.github.io/metamodels/kinematic-chain/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/kinematic-chain/state.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json",
+        "https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/floorplan/object.json",
+        "https://secorolab.github.io/metamodels/simulation/gazebo.json",
+        "https://secorolab.github.io/metamodels/geometry/coordinates.json"
+    ],
+    "@graph": [ 
+
+        {
+            "@id": "door:door-panel-visual-link",
+            "link": "door:door-panel",
+            "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
+            "polytope": "door:door-panel-polytope"
+        },
+        {
+            "@id": "door:door-panel-physics-link",
+            "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
+            "link": "door:door-panel",
+            "polytope": "door:door-panel-polytope"
+        },
+        {
+            "@id": "door:hinge-jamb-visual-link",
+            "@type": ["LinkWithPolytope", "LinkVisualRepresentation"],
+            "link": "door:hinge-jamb",
+            "polytope": "door:hinge-jamb-polytope"
+        },
+        {
+            "@id": "door:hinge-jamb-physics-link",
+            "@type": ["LinkWithPolytope", "LinkPhysicsRepresentation"],
+            "link": "door:hinge-jamb",
+            "polytope": "door:hinge-jamb-polytope"
+        },
+        {
+            "@id": "door:door-panel-object-link",
+            "@type": "ObjectLink",
+            "link": "door:door-panel",
+            "link-frame": "door:door-panel-center-frame"
+        },
+        {
+            "@id": "door:hinge-jamb-object-link",
+            "@type": "ObjectLink",
+            "link": "door:hinge-jamb",
+            "link-frame": "door:hinge-jamb-frame"
+        },
+        {
+            "@id": "door:door",
+            "@type": ["Object", "ObjectWithKinematicChain"],
+            "kinematic-chain": "door:kinematic-chain-door",
+            "object-frame": "door:door-object-frame",
+            "object-links": ["door:door-panel-object-link", "door:hinge-jamb-object-link"]
+        },
+
+        {
+            "@id": "door:door-hinge-tree",
+            "@type": "JointWithTree",
+            "joint-without-tree": "door:door-hinge",
+            "parent": "door:hinge-jamb",
+            "children": ["door:door-panel"]
+        },
+        {
+            "@id": "door:zero-configuration-door-hinge",
+            "@type": [ "JointZeroConfiguration", "JointZeroConfigurationWithCoincidence" ],
+            "of-joint": "door:door-hinge",
+            "coincidence-of": [ "door:door-hinge-vector-x", "door:door-hinge-stile-vector-x"]
+        }
+    ]
+}

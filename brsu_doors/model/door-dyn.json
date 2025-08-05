@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics.json",
+        "https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics/structural-entities.json",
+        "https://comp-rob2b.github.io/metamodels/newtonian-rigid-body-dynamics/coordinates.json",
+        "https://comp-rob2b.github.io/metamodels/qudt.json"
+    ],
+    "@graph": [
+        {
+            "@id": "door:door-panel-inertia",
+            "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
+            "of-body": "door:door-panel",
+            "reference-point": "door:door-hinge-stile-origin",
+            "as-seen-by": "door:door-hinge-stile-frame",
+            "quantity-kind": [ "MomentOfInertia", "Mass" ],
+            "unit": [ "KiloGM-M2", "KiloGM" ],
+            "xx": 0.4069,
+            "yy": 0.3322,
+            "zz": 0.0751,
+            "mass": 1.0
+        },
+        {
+            "@id": "door:hinge-jamb-inertia",
+            "@type":  [ "RigidBodyInertia", "Mass", "RotationalInertia", "PrincipalMomentsOfInertiaXYZ" ],
+            "of-body": "door:hinge-jamb",
+            "reference-point": "door:hinge-jamb-origin",
+            "as-seen-by": "door:hinge-jamb-frame",
+            "quantity-kind": [ "MomentOfInertia", "Mass" ],
+            "unit": [ "KiloGM-M2", "KiloGM" ],
+            "xx": 33.220,
+            "yy": 33.220,
+            "zz": 0.0415,
+            "mass": 100.0
+        }
+    ]
+}
